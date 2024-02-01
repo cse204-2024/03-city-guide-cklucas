@@ -1,0 +1,77 @@
+.header{
+    text-align: center;
+    font:36px "Times New Roman", serif; 
+    background-color: lightcoral;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.login {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.ViewFilesList{
+    font-size: 20px;
+    border-style: double;
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.Place{
+    font-size: 20px;
+    border-style: double;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#MuseumScienceTech{
+    font-size: 20px;
+}
+
+#MillenniumPark{
+    font-size: 20px;
+}
+
+#OvenGrinders{
+    font-size: 20px;
+}
+
+#LincolnParkZoo{
+    font-size: 20px;
+}
+
+#UnitedCenter{
+    font-size: 20px;
+}
+
+.Map{
+    text-align: center;
+    font:36px "Times New Roman", serif; 
+    border-style: double;
+    border-color: lightcoral;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 100px;
+}
+
+.Misc{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-bottom:15px;
+}
+
+.Form{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-top:15px;
+    margin-bottom: 40px
+}
+
