@@ -25,7 +25,8 @@ h1 {
 
 h2 {
     text-align: center;
-    font:24px bold "Times New Roman", serif;
+    font-size: 25px;
+    font: bold "Times New Roman", serif;
     padding: 0px;
     margin: 0px;
 }
@@ -54,7 +55,7 @@ h2 {
 
 #LincolnParkZoo{
     font-size: 20px;
-    padding-
+    padding-bottom: 70px;
 }
 
 #UnitedCenter{
@@ -62,23 +63,19 @@ h2 {
 }
 
 ul{
-    margin-top: -10px;
+    list-style-type: none;
+    margin-top: 1px;
     margin-bottom: 10px;
 }
 
 #ZooAnimals li{
     float: left;
-    width: 33.33%;
+    width: 16.6666%;
+    /*margin-left: 25px;*/
 }
 
 #ZooAnimals li::marker{
     content:"\2713\0020";
-}
-
-#ZooAnimals{
-    list-style-type: none;
-    margin-top: 15px;
-    margin-bottom: 10px;
 }
 
 .Map{
