@@ -4,6 +4,7 @@ body {
   }
 
 header {
+    position: sticky;
     background-color: lightgoldenrodyellow;
     margin: 0px;
     padding: 0px;
@@ -85,7 +86,8 @@ ul{
     border-color: lightcoral;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 100px;
+    margin: 5px;
+    margin-top:10px;
 }
 
 .Misc{
