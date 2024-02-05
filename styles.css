@@ -17,7 +17,8 @@ footer{
 
 h1 {
     text-align: center;
-    font:40px "Times New Roman", serif; 
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: lightpink;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -25,11 +26,16 @@ h1 {
 }
 
 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 25px;
     font: bold "Times New Roman", serif;
     padding: 0px;
     margin: 0px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Place{
@@ -106,7 +112,7 @@ ul{
 }
 
 a:link {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     color: blueviolet;
 }
@@ -133,7 +139,7 @@ table, th, td {
 }
 
 th{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     background-color: lightgoldenrodyellow;
 }
 
