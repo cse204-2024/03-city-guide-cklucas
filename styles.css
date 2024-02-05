@@ -4,15 +4,19 @@ body {
   }
 
 header {
+    width:100%;
     position: fixed;
-    background-color: lightgoldenrodyellow;
+    top: 0px;
+    background-color: lightcyan;
     margin: 0px;
     padding: 0px;
     overflow: auto;
+    text-align: right;
 }
 
 footer{
-    background-color: lightgoldenrodyellow;
+    background-color: lightcyan;
+    text-align: right;
 }
 
 h1 {
@@ -22,7 +26,7 @@ h1 {
     background-color: lightpink;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 h2 {
@@ -71,13 +75,14 @@ h3 {
 
 ul{
     list-style-type: none;
-    margin-top: 1px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
 }
 
 #ZooAnimals li{
     float: left;
-    width: 16.6666%;
-    /*margin-left: 25px;*/
+    width: 100%;
 }
 
 #ZooAnimals li::marker{
@@ -88,7 +93,6 @@ ul{
     text-align: center;
     font:36px "Times New Roman", serif; 
     border-style: double;
-    border-color: lightpink;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 5px;
@@ -105,14 +109,13 @@ ul{
 
 .Form{
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    margin-top:15px;
-    margin-bottom: 40px;
     font: 20px "Times New Roman", serif; 
     border-style: double;
-    border-color: lightpink;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 a:link {
@@ -126,11 +129,11 @@ a:visited {
 }
 
 a:hover {
-    color: orchid;
+    color: orangered;
 }
 
 a:active {
-    color: orangered;
+    color: orchid;
 }
 
 table{
@@ -144,7 +147,7 @@ table, th, td {
 
 th{
     font-family: 'Courier New', Courier, monospace;
-    background-color: lightgoldenrodyellow;
+    background-color: lightcyan;
 }
 
 td{
@@ -158,3 +161,15 @@ tr:nth-child(even) {
 tr:nth-child(odd) { 
     background-color: lightskyblue; 
 } 
+
+.Intro {
+    background-color: whitesmoke; 
+}
+
+.Attractions{
+    background-color: lightyellow; 
+}
+
+.MapandForm{
+    background-color: lightblue; 
+}
